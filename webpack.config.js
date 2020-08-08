@@ -24,6 +24,17 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
+      {
+        test: /\.(jpe?g|gif|png)$/,
+        use:[
+          {
+            loader:"url-loader",
+            options:{
+              limit:8*1024
+            }
+          }
+        ]
+      },
     ],
   },
 }

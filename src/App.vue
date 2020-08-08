@@ -1,5 +1,8 @@
 <template>
-    <h1>我是App.vue</h1>
+    <div>
+        <h1>hello app.vue</h1>
+        <div class="box"></div>
+    </div>
 </template>
 
 <script>

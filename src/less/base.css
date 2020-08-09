@@ -4,5 +4,8 @@
   list-style: none;
 }
 h1 {
-  color: green;
+  color: orange;
+}
+textarea {
+  color: blue;
 }
